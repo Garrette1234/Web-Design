@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Apex Web Design</title>
+   <link type="text/css" rel="stylesheet" href="Stylesheet.css"></link>
+	        <!--Link Icon--> 
+		<link rel="icon" type="image/ico" href="Images/Apex Logo Icon.png"/> 
+	    <!--End Link Icon--> 
+	</head>
+    <body>
+	   <!--Menu--> 
+	<center><div id="container1">
+	<table id="menutable" align=center  Border=0 style="font-size:30px;font-family:impact">  
+		  <tr>
+		     <td style="color:#008800" align=center WIDTH="200px"><a id="go" href=home.html style="color:#2692FF; ";><div id="go" ><img src="Images/Home.fw.png" Height="50px"; border=0 /></div></a> </td>
+		     <td style="color:#008800" align=center WIDTH="200px"><a id="go" href=Whatwedo.html style="color:#2692FF; ";><div id="go" ><img src="Images/Whatwedo.fw.png" Height="50px"; border=0 /></div></a> </td>
+			<td style="color:#008800" align=center WIDTH="200px"><a id="go" href=Contact.html style="color:#2692FF; ";><div id="go" ><img src="Images/Contactus.fw.png" Height="50px"; border=0 /></div></a> </td>
+		  </tr>
+		 </table>  
+</div id="container1"></center>
+      <!--End Menu--> 
+   <p><br><br><br><br></p>
+   <!--Logo--> 
+   <center><img id=Logo src ="Images/Apex logo Vector.svg" ></center>
+    <!--End Logo--> 
+    <!--Body--> 
+ <center><div id="container2">
+ <p id="Text1">Welcome to A-PEX Webdesign<br>Our company have been making affordable and quality websites since last thursday. Below you can see some of the websites we have created for other cleints</p>   
+
+<!--Slide Show--> 
+	<script language="JavaScript"> 
+var i = 0; var path = new Array(); 
+
+// LIST OF IMAGES 
+path[0] = "Images/752-755f63ddfa311347bf57b1251714c6c7.jpg"; 
+path[1] = "Images/752-b8367377e31fdfba9b866dff6046b752.jpg"; 
+path[2] = "Images/B7Kue19CQAI-hAb.jpg"; 
+
+function swapImage() 
+{ 
+document.slide.src = path[i]; 
+if(i < path.length - 1) i++; 
+else i = 0; 
+setTimeout("swapImage()",4000); 
+} 
+window.onload=swapImage; 
+</script> 
+<center><img name="slide" src="image_1.gif" width="400" /></center>
+<!--End Slide Show--> 	
+<!--Video-->
+<center><video id=vid controls poster="Images/flash-logo.png" style=width="700";  height="250">
+<source src="Images/Big Buck Bunny Trailer.mp4" type="video/mp4">
+</video></center>	
+<!--End Video-->	
+	
+	
+	
+	</div id="container2">
+	    <!--End Body--> 
+	</body>
+
+</html>

@@ -1,0 +1,44 @@
+/* Menu Divs */
+#container1 {
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  background: url(50%-transparent-white.png);
+  background: rgba(151,151,151,0.5);
+  height: 50px; 
+  position: fixed;
+  top: 0px;
+  right: 200px; 
+   }
+/* End Menu Divs */
+#menutable{
+
+}
+/* Main Divs */
+#container2 {
+  background-color: #ffffff;
+  height:2000;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  display:block;
+  background: url(50%-transparent-white.png);
+  background: rgba(151,151,151,0.5)
+   }
+/* End Main Divs */
+/* Main Body Text */   
+ #Text1 {
+font-family: Impact;
+color: #2692FF;
+font-size: 30px
+} 
+/* Main Body Text End */
+/* Page Links */ 
+#go{
+background-color: rgba(151,151,151,0.0);
+}
+/* Page Links End */
+/* Page Links Highlighted */
+#go:hover{background-color: #ffffff;}
+/* Page Links Highlighted End */
